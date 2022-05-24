@@ -1,0 +1,88 @@
+<section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+    <% if(biodata.length> 0){ %> <% biodata.forEach(bioData=>{ %>
+            <h1 class="title pb-3 mb-5">About Me</h1>
+            <p>Diam rebum sea stet rebum ea. Et kasd amet et accusam elitr voluptua. Tempor dolore sit et
+                accusam ipsum erat duo. Gubergren et takimata dolor duo amet et sanctus elitr lorem. Ipsum
+                amet
+                duo rebum dolor labore. No diam duo lorem elitr dolor takimata elitr no. Magna et gubergren
+                duo
+                ipsum sed, amet ea voluptua dolores voluptua dolor ipsum et. Sit takimata erat consetetur
+                invidunt lorem consetetur. Lorem magna diam vero nonumy. Aliquyam diam voluptua magna et
+                magna
+                nonumy. Accusam rebum clita et sit vero lorem, voluptua amet sit eos no et labore vero, et
+                consetetur justo et et sit aliquyam labore, sit erat lorem justo dolores kasd est sit. Dolor
+                et
+                accusam ea et dolor sit.</p>
+            <div class="row mb-4">
+                <div class="col-sm-6 py-1">
+                    <span class="fw-medium text-primary">Name:</span>
+                    <%= bioData.FirstName %>
+                </div>
+                <div class="col-sm-6 py-1">
+                    <span class="fw-medium text-primary">Birthday:</span>
+                    <%= bioData.DateofBirth %>
+                </div>
+                <div class="col-sm-6 py-1">
+                    <span class="fw-medium text-primary">Degree:</span>
+                    <%= bioData.Education %>
+                </div>
+                <div class="col-sm-6 py-1">
+                    <span class="fw-medium text-primary">Experience:</span>
+                    <%= bioData.Experience %> years
+                </div>
+                <div class="col-sm-6 py-1">
+                    <span class="fw-medium text-primary">Phone:</span>
+                    <%= bioData.PhoneNo %>
+                </div>
+                <div class="col-sm-6 py-1">
+                    <span class="fw-medium text-primary">Email:</span>
+                    <%= bioData.Email %>
+                </div>
+                <div class="col-sm-6 py-1">
+                    <span class="fw-medium text-primary">Address:</span>
+                    <%= bioData.Address %>
+                </div>
+                <div class="col-sm-6 py-1">
+                    <span class="fw-medium text-primary">Profession:</span>
+                    <%= bioData.Profession %>
+                </div>
+
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4 col-lg-6 col-xl-4">
+                    <div class="d-flex bg-secondary p-4">
+                        <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">
+                            <%= bioData.Experience %>
+                        </h1>
+                        <div class="ps-3">
+                            <p class="mb-0">Years of</p>
+                            <h5 class="mb-0">
+                                Experience
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-md-4 col-lg-6 col-xl-4">
+            <div class="d-flex bg-secondary p-4">
+                <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">100
+                </h1>
+                <div class="ps-3">
+                    <p class="mb-0">Happy</p>
+                    <h5 class="mb-0">Clients</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-6 col-xl-4">
+            <div class="d-flex bg-secondary p-4">
+                <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">200
+                </h1>
+                <div class="ps-3">
+                    <p class="mb-0">Complete</p>
+                    <h5 class="mb-0">Projects</h5>
+                </div>
+            </div>
+        </div> -->
+            </div>
+            <%})}%>
+</section>
